@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module Name</string>
+			<key>Description</key>
+			<string>Name of the module to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Sample</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>prefixName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Variable Name</string>
+			<key>Description</key>
+			<string>Prefix of the module for components (recommended to use the same name as the module name but with the first letter as lowercase)</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>sample</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>optionalState</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Optional</string>
+			<key>Description</key>
+			<string>Decides whether the state is optional or not.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>True</string>
+		</dict>
+	</array>
+</dict>
+</plist>
