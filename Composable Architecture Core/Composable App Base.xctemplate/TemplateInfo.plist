@@ -52,6 +52,20 @@
 			<key>Default</key>
 			<string>sample</string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>optionalState</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Optional submodule</string>
+			<key>Description</key>
+			<string>Decides whether the state submodule&apos;s state is optional or not.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>True</string>
+		</dict>
 	</array>
 </dict>
 </plist>
