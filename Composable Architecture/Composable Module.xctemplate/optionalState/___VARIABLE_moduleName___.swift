@@ -17,6 +17,7 @@ let ___VARIABLE_prefixName___Reducer: Reducer<___VARIABLE_moduleName___State?, _
         switch action {
         default: break
         }
+	return .none
 }
 .optional()
 

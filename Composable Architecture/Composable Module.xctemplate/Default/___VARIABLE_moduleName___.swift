@@ -17,6 +17,7 @@ let ___VARIABLE_prefixName___Reducer: Reducer<___VARIABLE_moduleName___State, __
         switch action {
         default: break
         }
+        return .none
 }
 
 extension Store where State == AppState, Action == AppAction {

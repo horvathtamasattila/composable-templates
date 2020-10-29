@@ -19,5 +19,5 @@ let appReducer: Reducer<AppState, AppAction, AppEnvironment> =
         switch action {
         default: break
         }
-
+        return .none
 }
